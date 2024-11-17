@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProGean | For Study Programming</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>ProGean</h1>
+            <p>To Learning C++ , paython , JavaScript</p>
+        </div>
+    </header>
+
+    <!-- Upload Video Section -->
+    <section class="upload-section">
+        <div class="container">
+            <h2>رفع فيديو جديد</h2>
+            <form id="uploadForm">
+                <input type="file" id="videoFile" name="video" accept="video/*" required>
+                <input type="text" id="videoTitle" name="title" placeholder="عنوان الفيديو" required>
+                <button type="submit">رفع الفيديو</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Video Gallery Section -->
+    <section class="gallery-section">
+        <div class="container">
+            <h2>فيديوهات تعليمية</h2>
+            <div id="videoGallery" class="video-gallery">
+                <!-- سيتم إضافة الفيديوهات هنا بواسطة JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
